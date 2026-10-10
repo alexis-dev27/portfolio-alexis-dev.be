@@ -1,0 +1,660 @@
+body {
+    margin: 0;
+    background-color: rgb(42, 37, 79);
+    
+}
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1000;
+}
+.barre-nav {
+    border-radius: 25px;
+    width: 80%;
+    height: 60px;
+    background-color: #301b61;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+    
+    
+    
+}
+header p {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    bottom: 19px;
+    right: 150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header span {
+    color: #3705aa;
+}
+nav {
+    display: flex;
+
+    gap: 50px;
+    
+}
+nav a {
+    position: relative;
+   top: 17px;
+   text-decoration: none;
+   color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+.img-1 {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.dev-web{
+    color:#2258df;
+    position: absolute;
+    bottom: 600px;
+    left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+}
+.txt-1 {
+    font-size: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    position: absolute;
+    bottom: 530px;
+    left: 200px;
+    color: white;
+}
+.span-titre {
+    font-size: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: #1f9bde;
+    position: absolute;
+    bottom: 500px;
+    left: 200px;
+}
+.txt-2 {
+    font-size: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    left: 305px;
+    bottom: 466px;
+
+}
+
+.bio {
+    position: absolute;
+    left: 200px;
+    bottom: 370px;
+    color: rgb(211, 211, 211);
+}
+.btn-projet {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2258df;
+    color: white;
+    position: absolute;
+    bottom: 300px;
+    left: 200px;
+    cursor: pointer;
+}
+.btn-contact {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+    cursor: pointer;
+}
+.fiel-1 {
+    height: 300px;
+    width: 1000px;
+    background-color: #1b044a;
+    border-radius: 30px;
+    position: absolute;
+    top: 510px;
+
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.txt-3 {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+
+}
+.txt-3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 40px;
+    height: 7px;
+    background: #7906cc;
+    border-radius: 2px;
+}
+.txt-4 {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.card-region {
+    position: absolute;
+    left: 600px;
+    height: 140px;
+    top: 40px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    background-color: #7753ca;
+    border-radius: 20px;
+
+}
+.fa-solid {
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+
+}
+.txt-5 {
+    font-size: 17px;
+    position: absolute;
+    top: 40px;
+    font-weight: bold;
+}
+.txt-6 {
+    font-size: 14px;
+    position: absolute;
+    font-weight: bold;
+    top: 60px;
+}
+.card-metier {
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    background-color: #7753ca;
+    display: flex;
+    justify-content: center;
+    top: 550px;
+    border-radius: 20px;
+    left: 1010px;
+
+}
+.txt-7 {
+    position: relative;
+    top: 45px;
+    font-weight: bold;
+    white-space: nowrap;
+    
+}
+.txt-8 {
+    position: absolute;
+    top: 70px;
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: 900;
+}
+
+.txt-9{
+    position: absolute;
+    left: 100px;
+    top: 800px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.txt-9::after {
+     content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 40px;
+    height: 7px;
+    background: #7906cc;
+    border-radius: 2px;
+}
+.projet-1 {
+    height: 450px;
+    width: 300px;
+    background-color: #301b61;
+    border: 1px solid #1b044a;
+    position: absolute;
+    top: 920px;
+    right: 1100px;
+    border-radius: 10px;
+}
+.projet-1-image {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.txt-10{
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    color: white;
+}
+.projet-perso {
+    display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #472044;
+  color: #ff5bb5;
+  font-size: 16px;
+  font-weight: 700;
+}
+#person-2 {
+    font-size: 10px;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    color: #dedede;
+}
+
+.badge-projet {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #472044;
+  color: #ff5bb5;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  top: 260px;
+  right: 160px;
+}
+
+.badge-projet__icone {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.txt-11{
+    font-weight: 900;
+    position: absolute;
+    top: 280px;
+    font-size: 15px;
+    padding: 15px;
+    white-space: nowrap;
+    color: white;
+}
+.badge-html {
+    display: inline-flex;
+    padding: 2px 8px;
+    background-color: rgb(220, 96, 51);
+    border: 1px solid orangered;
+    border-radius: 999px;
+    position: absolute;
+    top: 350px;
+    right: 220px;
+
+}
+.badge-css{
+    display: inline-flex;
+    padding: 2px 13px;
+    background-color: #2258df;
+    border: 1px solid blue;
+    border-radius: 999px;
+    position: absolute;
+    top: 350px;
+    right: 160px;
+}
+.btn-projet-1 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  background: #ff2f9d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+.txt-12 {
+    position: absolute;
+    left: 100px;
+    top: 1400px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.txt-12::after{
+      content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 40px;
+    height: 7px;
+    background: #7906cc;
+    border-radius: 2px;
+}
+.compet-html {
+    height: 50px;
+    border-radius: 999px;
+    width: 150px;
+     background-color: #0b1424;
+    border: 1px solid #25324a;
+    position: absolute;
+    top: 1500px;
+    right: 1260px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding: 0px 0px 0px 10px;
+      border-left-color: #8b4cff;
+
+
+}
+.compet-html img {
+    height: 35px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    gap: 10px;
+   
+    
+}
+.compet-html p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+    top: 0px;
+    right: 25px;
+
+}
+.compet-css {
+     height: 50px;
+    border-radius: 999px;
+    width: 150px;
+     background-color: #0b1424;
+    border: 1px solid #25324a;
+    position: absolute;
+    top: 1500px;
+    right: 1100px;
+    left: 270px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding: 0px 0px 0px 10px;
+      border-left-color: #8b4cff;
+
+
+}
+.compet-css img {
+    height: 35px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.compet-css p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+    top: 0px;
+    right: 25px;
+}
+.compet-js {
+     height: 50px;
+    border-radius: 999px;
+    width: 150px;
+     background-color: #0b1424;
+    border: 1px solid #25324a;
+    position: relative;
+    top: 1500px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding: 0px 0px 0px 10px;
+      border-left-color: #8b4cff;
+      right: 225px;
+}
+.compet-js img {
+    height: 35px;
+    position: relative;
+    top: 9px;
+    left: 10px;
+}
+.compet-js p {
+    color: white;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: 900;
+  position: absolute;
+  left: 80px;
+  top: 5px; 
+  margin: 0;
+  font-size: 12px;
+}
+.contact {
+    width: 400px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    position: absolute;
+    top: 900px;
+    left: 800px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.titre-contact {
+    display: flex;
+   
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.card-email{
+    height: 40px;
+    width: 40px;
+      background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 15px;
+    position: absolute;
+    top: 100px;
+    right: 320px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.card-email i {
+    display: flex;
+    font-size: 25px;
+    top: 9px;
+    color: white;
+    
+}
+.mail {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 110px;
+}
+.mail::after {
+       content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 190px;
+    height: 7px;
+    background: #7906cc;
+    border-radius: 2px;
+}
+.card-tel {
+   height: 40px;
+    width: 40px;
+      background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 15px;
+    position: absolute;
+    top: 200px;
+    right: 320px;
+    display: flex;
+    justify-content: center;  
+}
+.card-tel i {
+    font-size: 25px;
+    display: flex;
+    top: 9px;
+    color: white;
+}
+.num {
+    position: absolute;
+    top: 200px;
+    right: 205px;
+    font-size: 15px;
+    color: white;
+    
+}
+.num::after{
+       content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 90px;
+    height: 7px;
+    background: #7906cc;
+    border-radius: 2px;
+}
+.card-github {
+     height: 40px;
+    width: 40px;
+      background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 15px;
+    position: absolute;
+    top: 300px;
+    right: 320px;
+    display: flex;
+    justify-content: center;  
+}
+.card-github i {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    position: relative;
+    top: 9px;
+}
+.mon-github {
+    position: absolute;
+    top: 313px;
+    right: 188px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.mon-github::after{
+      content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 105px;
+    height: 7px;
+    background: #7906cc;
+    border-radius: 2px;
+}
+.card-linkedIn {
+     height: 40px;
+    width: 40px;
+      background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 15px;
+    position: absolute;
+    top: 400px;
+    right: 320px;
+    display: flex;
+    justify-content: center; 
+}
+.card-linkedIn i {
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    top: 9px;
+    color: white;
+}
+.mon-linkedIn {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 413px;
+    right: 180px;
+
+}
+.mon-linkedIn::after{
+     content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 120px;
+    height: 7px;
+    background: #7906cc;
+    border-radius: 2px;
+}
+footer {
+  border-top: 1px solid #ccc;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 1600px;
+  padding-top: 20px;
+}
